@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:pacmanMetamodel="platform:/plugin/PacmanMetamodel/model/pacmanMetamodel.ecore" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_AiWPcCCWEemutJqwuBsD3w" selectedViews="_P1Gn0CCWEemutJqwuBsD3w" version="12.1.0.201708031200">
+    <semanticResources>pacmanApp.pacmanmetamodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_P1Gn0CCWEemutJqwuBsD3w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_QsNO9SCWEemutJqwuBsD3w" name="pacman App Strategy" repPath="#_QsAaoCCWEemutJqwuBsD3w">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']"/>
+        <target xmi:type="pacmanMetamodel:PacmanApp" href="pacmanApp.pacmanmetamodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_G52DgDeAEemKVZZVXHPrRg" name="freeze" repPath="#_G5s5kDeAEemKVZZVXHPrRg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+        <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_NZOhxTeAEemKVZZVXHPrRg" name="debug3" repPath="#_NTshgDeAEemKVZZVXHPrRg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+        <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_X_Vk0zeAEemKVZZVXHPrRg" name="back" repPath="#_X_R6cDeAEemKVZZVXHPrRg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+        <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_gyOWxTeAEemKVZZVXHPrRg" name="wander" repPath="#_gyI3MDeAEemKVZZVXHPrRg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+        <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_pIYJYDeAEemKVZZVXHPrRg" name="backback" repPath="#_pIFOcDeAEemKVZZVXHPrRg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+        <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_QsNO8CCWEemutJqwuBsD3w" name="pacman App Strategy" uid="_QsAaoCCWEemutJqwuBsD3w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_QsNO8SCWEemutJqwuBsD3w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_QsNO8iCWEemutJqwuBsD3w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_QsN2ACCWEemutJqwuBsD3w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_QsN2ASCWEemutJqwuBsD3w" type="Sirius" element="_QsNO8CCWEemutJqwuBsD3w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_cJrlsDd9EemKVZZVXHPrRg" type="2001" element="_cJexYDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_cJta4Dd9EemKVZZVXHPrRg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cJta4Td9EemKVZZVXHPrRg" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cK6UwDd9EemKVZZVXHPrRg" type="3005" element="_cJexYTd9EemKVZZVXHPrRg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cK6UwTd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cK6Uwjd9EemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cJrlsTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJrlsjd9EemKVZZVXHPrRg" x="108" y="60" width="90" height="90"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dJ00EDd9EemKVZZVXHPrRg" type="2002" element="_dJMh8Dd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_dJ1bIDd9EemKVZZVXHPrRg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_dJ2CMDd9EemKVZZVXHPrRg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_evETkDd9EemKVZZVXHPrRg" type="3007" element="_ergpQDd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_evFhsDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_evFhsTd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_e7T_0Dd9EemKVZZVXHPrRg" type="3005" element="_erh3YDd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_e7T_0Td9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7T_0jd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_evETkTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_evETkjd9EemKVZZVXHPrRg" x="43" y="65" width="70" height="70"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gYlPEDd9EemKVZZVXHPrRg" type="3007" element="_gXJrsDd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_gYnEQDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gYnEQTd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_gaTGUDd9EemKVZZVXHPrRg" type="3005" element="_gXNWEDd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_gaTGUTd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gaTGUjd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gYlPETd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gYlPEjd9EemKVZZVXHPrRg" x="151" y="53" width="70" height="70"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_dJ2CMTd9EemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_dJ2CMjd9EemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dJ00ETd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dJ00Ejd9EemKVZZVXHPrRg" x="48" y="264" width="250" height="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_lIn2oDd9EemKVZZVXHPrRg" type="2002" element="_lIJVgDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_lIpEwDd9EemKVZZVXHPrRg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_lIpr0Dd9EemKVZZVXHPrRg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_nnGEMDd9EemKVZZVXHPrRg" type="3007" element="_nl4jQDd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_nnGrQDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_nnGrQTd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_nnaNQDd9EemKVZZVXHPrRg" type="3005" element="_nl7mkDd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_nnaNQTd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnaNQjd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nnGEMTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnGEMjd9EemKVZZVXHPrRg" x="43" y="41" width="70" height="70"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qFh1gDd9EemKVZZVXHPrRg" type="3007" element="_qDvs0Dd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_qFickDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_qFickTd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qF63EDd9EemKVZZVXHPrRg" type="3005" element="_qEJVcDd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_qGAWoDd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qGAWoTd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qFh1gTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qFh1gjd9EemKVZZVXHPrRg" x="151" y="41" width="70" height="70"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_lIpr0Td9EemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_lIpr0jd9EemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_lIn2oTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIn2ojd9EemKVZZVXHPrRg" x="360" y="24" width="250" height="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rx5QsDd9EemKVZZVXHPrRg" type="2002" element="_rxSMsDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_rx7F4Dd9EemKVZZVXHPrRg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_rx7F4Td9EemKVZZVXHPrRg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_vRj1gDd9EemKVZZVXHPrRg" type="3007" element="_vRMpIDd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_vRkckDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vRlDoDd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_vU3BIDd9EemKVZZVXHPrRg" type="3005" element="_vRMpITd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_vU3BITd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vU3BIjd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vRj1gTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vRj1gjd9EemKVZZVXHPrRg" x="-5" y="41" width="70" height="70"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_wM5cYDd9EemKVZZVXHPrRg" type="3007" element="_wMP8IDd9EemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_wM6DcDd9EemKVZZVXHPrRg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_wM6DcTd9EemKVZZVXHPrRg" x="4" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_wM6qgDd9EemKVZZVXHPrRg" type="3005" element="_wMQjMDd9EemKVZZVXHPrRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_wM6qgTd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wM6qgjd9EemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_wM5cYTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wM5cYjd9EemKVZZVXHPrRg" x="127" y="41" width="70" height="70"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_rx7F4jd9EemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_rx7F4zd9EemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rx5QsTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rx5Qsjd9EemKVZZVXHPrRg" x="396" y="360" width="250" height="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2lhyYDd9EemKVZZVXHPrRg" type="2001" element="_2lL0IDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_2ljAgDd9EemKVZZVXHPrRg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2ljAgTd9EemKVZZVXHPrRg" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2l7bADd9EemKVZZVXHPrRg" type="3005" element="_2lNpUDd9EemKVZZVXHPrRg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2l7bATd9EemKVZZVXHPrRg" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2l7bAjd9EemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2lhyYTd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2lhyYjd9EemKVZZVXHPrRg" x="252" y="600" width="90" height="90"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_QsN2AiCWEemutJqwuBsD3w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_eI6SgDd9EemKVZZVXHPrRg" type="4001" element="_eHU-IDd9EemKVZZVXHPrRg" source="_cJrlsDd9EemKVZZVXHPrRg" target="_dJ00EDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_eI6ShDd9EemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eI6ShTd9EemKVZZVXHPrRg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eI65kDd9EemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eI65kTd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eI65kjd9EemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eI65kzd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eI6SgTd9EemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eI6Sgjd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eI6Sgzd9EemKVZZVXHPrRg" points="[0, 0, -36, -114]$[0, 57, -36, -57]$[36, 57, 0, -57]$[36, 114, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eI7goDd9EemKVZZVXHPrRg" id="(0.4,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eI7goTd9EemKVZZVXHPrRg" id="(0.532258064516129,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zWTdUDd9EemKVZZVXHPrRg" type="4001" element="_zU3S4Dd9EemKVZZVXHPrRg" source="_dJ00EDd9EemKVZZVXHPrRg" target="_rx5QsDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_zWUEYDd9EemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zWUEYTd9EemKVZZVXHPrRg" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zWUEYjd9EemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zWUEYzd9EemKVZZVXHPrRg" x="17" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zWUEZDd9EemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zWUEZTd9EemKVZZVXHPrRg" x="-17" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zWTdUTd9EemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zWTdUjd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zWTdUzd9EemKVZZVXHPrRg" points="[7, 4, -224, 7]$[57, 4, -174, 7]$[57, -3, -174, 0]$[107, -3, -124, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zWUrcDd9EemKVZZVXHPrRg" id="(0.9717741935483871,0.8991935483870968)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1BLqwDd9EemKVZZVXHPrRg" type="4001" element="_1AB0MDd9EemKVZZVXHPrRg" source="_rx5QsDd9EemKVZZVXHPrRg" target="_dJ00EDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_1BLqxDd9EemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1BLqxTd9EemKVZZVXHPrRg" x="2" y="-30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1BMR0Dd9EemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1BMR0Td9EemKVZZVXHPrRg" x="-2" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1BMR0jd9EemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1BMR0zd9EemKVZZVXHPrRg" x="-11" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1BLqwTd9EemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1BLqwjd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1BLqwzd9EemKVZZVXHPrRg" points="[0, -72, 100, 60]$[-12, -72, 88, 60]$[-12, -132, 88, 0]$[-100, -132, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1BM44Dd9EemKVZZVXHPrRg" id="(0.0,0.4838709677419355)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1BM44Td9EemKVZZVXHPrRg" id="(1.0,0.3387096774193548)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_6mzPcDd9EemKVZZVXHPrRg" type="4001" element="_6i2jkDd9EemKVZZVXHPrRg" source="_dJ00EDd9EemKVZZVXHPrRg" target="_2lhyYDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_6m0dkDd9EemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6m0dkTd9EemKVZZVXHPrRg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6m1rsDd9EemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6m1rsTd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6m2SwDd9EemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6m2SwTd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6mzPcTd9EemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_6mzPcjd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6mzPczd9EemKVZZVXHPrRg" points="[0, 0, -60, -148]$[0, 148, -60, 0]$[60, 148, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6m250Dd9EemKVZZVXHPrRg" id="(0.5806451612903226,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6m250Td9EemKVZZVXHPrRg" id="(0.0,0.6666666666666666)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_8Dq2EDd9EemKVZZVXHPrRg" type="4001" element="_8Ckp4Dd9EemKVZZVXHPrRg" source="_2lhyYDd9EemKVZZVXHPrRg" target="_rx5QsDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_8DrdIDd9EemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DrdITd9EemKVZZVXHPrRg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8DrdIjd9EemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DrdIzd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8DsEMDd9EemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DsEMTd9EemKVZZVXHPrRg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8Dq2ETd9EemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8Dq2Ejd9EemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Dq2Ezd9EemKVZZVXHPrRg" points="[0, 0, -54, 168]$[27, 0, -27, 168]$[27, -168, -27, 0]$[54, -168, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8DsrQDd9EemKVZZVXHPrRg" id="(1.0,0.4)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8DsrQTd9EemKVZZVXHPrRg" id="(0.0,0.43548387096774194)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gAbtcDeAEemKVZZVXHPrRg" type="4001" element="_gAFvMDeAEemKVZZVXHPrRg" source="_rx5QsDd9EemKVZZVXHPrRg" target="_lIn2oDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_gAcUgDeAEemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAcUgTeAEemKVZZVXHPrRg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gAcUgjeAEemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAcUgzeAEemKVZZVXHPrRg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gAcUhDeAEemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAcUhTeAEemKVZZVXHPrRg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gAbtcTeAEemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gAbtcjeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gAbtczeAEemKVZZVXHPrRg" points="[0, 0, 0, 88]$[0, -88, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gAc7kDeAEemKVZZVXHPrRg" id="(0.4637096774193548,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gAc7kTeAEemKVZZVXHPrRg" id="(0.6088709677419355,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_n-B2IDeAEemKVZZVXHPrRg" type="4001" element="_n9se8DeAEemKVZZVXHPrRg" source="_lIn2oDd9EemKVZZVXHPrRg" target="_dJ00EDd9EemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_n-B2JDeAEemKVZZVXHPrRg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n-B2JTeAEemKVZZVXHPrRg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_n-CdMDeAEemKVZZVXHPrRg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n-CdMTeAEemKVZZVXHPrRg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_n-CdMjeAEemKVZZVXHPrRg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n-CdMzeAEemKVZZVXHPrRg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_n-B2ITeAEemKVZZVXHPrRg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_n-B2IjeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n-B2IzeAEemKVZZVXHPrRg" points="[0, 0, 64, -108]$[-32, 0, 32, -108]$[-32, 108, 32, 0]$[-64, 108, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n-CdNDeAEemKVZZVXHPrRg" id="(0.0,0.8225806451612904)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n-CdNTeAEemKVZZVXHPrRg" id="(1.0,0.2903225806451613)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_cJexYDd9EemKVZZVXHPrRg" outgoingEdges="_eHU-IDd9EemKVZZVXHPrRg" width="9" height="9">
+      <target xmi:type="pacmanMetamodel:Start" href="pacmanApp.pacmanmetamodel#//@hasState.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Start" href="pacmanApp.pacmanmetamodel#//@hasState.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_cJexYTd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Start_game.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='Start%20State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='Start%20State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_dJMh8Dd9EemKVZZVXHPrRg" name="Go for bonus!" outgoingEdges="_zU3S4Dd9EemKVZZVXHPrRg _6i2jkDd9EemKVZZVXHPrRg" incomingEdges="_eHU-IDd9EemKVZZVXHPrRg _1AB0MDd9EemKVZZVXHPrRg _n9se8DeAEemKVZZVXHPrRg" width="25" height="25">
+      <target xmi:type="pacmanMetamodel:BonusAcquisition" href="pacmanApp.pacmanmetamodel#//@hasState.1"/>
+      <semanticElements xmi:type="pacmanMetamodel:BonusAcquisition" href="pacmanApp.pacmanmetamodel#//@hasState.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_dJNJADd9EemKVZZVXHPrRg" labelSize="12" iconPath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_bonus-resizeimage.png" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='BonusAcquisition%20State%20']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='BonusAcquisition%20State%20']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ergpQDd9EemKVZZVXHPrRg" name="Type: TO_CLOSEST_BONUS &#xA; Importance: NORMAL" width="7" height="7">
+        <target xmi:type="pacmanMetamodel:BonusDistance" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasBehavior.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:BonusDistance" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasBehavior.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_erh3YDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Bonus_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='BonusDistance%20Behavior']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='BonusDistance%20Behavior']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gXJrsDd9EemKVZZVXHPrRg" name="Type: MAX &#xA; Importance: HIGH" width="7" height="7">
+        <target xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasBehavior.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasBehavior.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_gXNWEDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_safe_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_eHU-IDd9EemKVZZVXHPrRg" name=" " sourceNode="_cJexYDd9EemKVZZVXHPrRg" targetNode="_dJMh8Dd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.0/@hasTransition.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.0/@hasTransition.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_eHYBcDd9EemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_eHYBcTd9EemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lIJVgDd9EemKVZZVXHPrRg" name="Wandering" outgoingEdges="_n9se8DeAEemKVZZVXHPrRg" incomingEdges="_gAFvMDeAEemKVZZVXHPrRg" width="25" height="25">
+      <target xmi:type="pacmanMetamodel:Wandering" href="pacmanApp.pacmanmetamodel#//@hasState.2"/>
+      <semanticElements xmi:type="pacmanMetamodel:Wandering" href="pacmanApp.pacmanmetamodel#//@hasState.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_lIJVgTd9EemKVZZVXHPrRg" labelSize="12" iconPath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_wondering-resizeimage.png" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='Wandering%20State%20']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='Wandering%20State%20']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_nl4jQDd9EemKVZZVXHPrRg" name="Search Depth: 2 &#xA; Importance: NORMAL" width="7" height="7" resizeKind="NSEW">
+        <target xmi:type="pacmanMetamodel:EscapeRoutes" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasBehavior.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:EscapeRoutes" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasBehavior.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_nl7mkDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/GhostMetamodel.design/icons/png/GetAway_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='EscapeRootes%20Behavior']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='EscapeRootes%20Behavior']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_qDvs0Dd9EemKVZZVXHPrRg" name="Type: MAX &#xA; Importance: HIGH" width="7" height="7">
+        <target xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasBehavior.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasBehavior.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_qEJVcDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_safe_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_rxSMsDd9EemKVZZVXHPrRg" name="Go for points!" outgoingEdges="_1AB0MDd9EemKVZZVXHPrRg _gAFvMDeAEemKVZZVXHPrRg" incomingEdges="_zU3S4Dd9EemKVZZVXHPrRg _8Ckp4Dd9EemKVZZVXHPrRg" width="25" height="25">
+      <target xmi:type="pacmanMetamodel:CardAcquisition" href="pacmanApp.pacmanmetamodel#//@hasState.3"/>
+      <semanticElements xmi:type="pacmanMetamodel:CardAcquisition" href="pacmanApp.pacmanmetamodel#//@hasState.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_rxSMsTd9EemKVZZVXHPrRg" labelSize="12" iconPath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_points-resizeimage.png" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='CardAcquisition%20State%20']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@containerMappings[name='CardAcquisition%20State%20']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_vRMpIDd9EemKVZZVXHPrRg" name="Type: TO_CLOSEST_POINTS &#xA; Importance: NORMAL" width="7" height="7">
+        <target xmi:type="pacmanMetamodel:CardDistance" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasBehavior.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:CardDistance" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasBehavior.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vRMpITd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Points_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='CardDistance%20Behavior']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='CardDistance%20Behavior']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_wMP8IDd9EemKVZZVXHPrRg" name="Type: MAX &#xA; Importance: HIGH" width="7" height="7">
+        <target xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasBehavior.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:OpponentDistance" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasBehavior.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_wMQjMDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_safe_area.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='OpponentDistance%20Behavior']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zU3S4Dd9EemKVZZVXHPrRg" name="If: UNTAKEN_BONUS = 0" sourceNode="_dJMh8Dd9EemKVZZVXHPrRg" targetNode="_rxSMsDd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_O9o60DeAEemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_O9o60TeAEemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1AB0MDd9EemKVZZVXHPrRg" name="If: DIST_TO_OPP > 4" sourceNode="_rxSMsDd9EemKVZZVXHPrRg" targetNode="_dJMh8Dd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZcffUDeAEemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZcffUTeAEemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2lL0IDd9EemKVZZVXHPrRg" name="5sec FREEZE " outgoingEdges="_8Ckp4Dd9EemKVZZVXHPrRg" incomingEdges="_6i2jkDd9EemKVZZVXHPrRg" width="9" height="9">
+      <target xmi:type="pacmanMetamodel:EnemyImmobilization" href="pacmanApp.pacmanmetamodel#//@hasState.4"/>
+      <semanticElements xmi:type="pacmanMetamodel:EnemyImmobilization" href="pacmanApp.pacmanmetamodel#//@hasState.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2lNpUDd9EemKVZZVXHPrRg" showIcon="false" workspacePath="/PacmanMetamodel.design/icons/png/Pacman/Pacman_freeze.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='EnemyImmobilization%20State%20']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@nodeMappings[name='EnemyImmobilization%20State%20']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_6i2jkDd9EemKVZZVXHPrRg" name="If: MY_BONUS = 1" sourceNode="_dJMh8Dd9EemKVZZVXHPrRg" targetNode="_2lL0IDd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Hna7MDeAEemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Hna7MTeAEemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8Ckp4Dd9EemKVZZVXHPrRg" name=" " sourceNode="_2lL0IDd9EemKVZZVXHPrRg" targetNode="_rxSMsDd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.4/@hasTransition.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.4/@hasTransition.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8ClQ8Dd9EemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8ClQ8Td9EemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_gAFvMDeAEemKVZZVXHPrRg" name="If: DIST_TO_OPP &lt;= 4" sourceNode="_rxSMsDd9EemKVZZVXHPrRg" targetNode="_lIJVgDd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_jK6FYDeAEemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_jK6FYTeAEemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_n9se8DeAEemKVZZVXHPrRg" name="If: (DIST_TO_CLOSEST_BONUS &lt; 3) AND (DIST_TO_OPP &lt;= 4)" sourceNode="_lIJVgDd9EemKVZZVXHPrRg" targetNode="_dJMh8Dd9EemKVZZVXHPrRg">
+      <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0"/>
+      <semanticElements xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_vuW-4DeAEemKVZZVXHPrRg" size="5" routingStyle="manhattan" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_vuW-4TeAEemKVZZVXHPrRg" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer/@edgeMappings[name='TransitionEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_QsNO9CCWEemutJqwuBsD3w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='DevelopStrategy']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:PacmanApp" href="pacmanApp.pacmanmetamodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_G501YDeAEemKVZZVXHPrRg" name="freeze" uid="_G5s5kDeAEemKVZZVXHPrRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_G501YTeAEemKVZZVXHPrRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_G501YjeAEemKVZZVXHPrRg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_G52qkDeAEemKVZZVXHPrRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_G52qkTeAEemKVZZVXHPrRg" type="Sirius" element="_G501YDeAEemKVZZVXHPrRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HnfMoDeAEemKVZZVXHPrRg" type="2003" element="_HjAVQDeAEemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_HnfMozeAEemKVZZVXHPrRg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_HnfzsDeAEemKVZZVXHPrRg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_IaXbEDeAEemKVZZVXHPrRg" type="3010" element="_IaMb8DeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_IaXbETeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IaXbEjeAEemKVZZVXHPrRg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_JW3fkDeAEemKVZZVXHPrRg" type="3010" element="_JWo2EDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_JW3fkTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JW3fkjeAEemKVZZVXHPrRg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HnfzsTeAEemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HnfzsjeAEemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HnfMoTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnfMojeAEemKVZZVXHPrRg" x="324" y="204"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_G52qkjeAEemKVZZVXHPrRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_HjAVQDeAEemKVZZVXHPrRg" name="MY_BONUS   =  1.0">
+      <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition"/>
+      <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JWvjwDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="204,242,166" foregroundColor="204,242,166">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.3/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_IaMb8DeAEemKVZZVXHPrRg" name="MY_BONUS">
+        <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition/@hasOperand.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition/@hasOperand.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_IaMb8TeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_JWo2EDeAEemKVZZVXHPrRg" name="1.0">
+        <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition/@hasOperand.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1/@hasCondition/@hasOperand.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_JWpdIDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_G501ZDeAEemKVZZVXHPrRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_NZOhwDeAEemKVZZVXHPrRg" name="debug3" uid="_NTshgDeAEemKVZZVXHPrRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_NZOhwTeAEemKVZZVXHPrRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_NZOhwjeAEemKVZZVXHPrRg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_NZPI0DeAEemKVZZVXHPrRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_NZPI0TeAEemKVZZVXHPrRg" type="Sirius" element="_NZOhwDeAEemKVZZVXHPrRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_O9tzUDeAEemKVZZVXHPrRg" type="2003" element="_O9dUoDeAEemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_O9uaYDeAEemKVZZVXHPrRg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_O9vBcDeAEemKVZZVXHPrRg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_PY1CADeAEemKVZZVXHPrRg" type="3010" element="_PVrAUDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_PY1CATeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_PY1CAjeAEemKVZZVXHPrRg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_RZ-aYDeAEemKVZZVXHPrRg" type="3010" element="_RZhucDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_RZ-aYTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RZ-aYjeAEemKVZZVXHPrRg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_O9vBcTeAEemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_O9vBcjeAEemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_O9tzUTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O9tzUjeAEemKVZZVXHPrRg" x="432" y="216"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_NZPI0jeAEemKVZZVXHPrRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_O9dUoDeAEemKVZZVXHPrRg" name="UNTAKEN_BONUS   =  0.0">
+      <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition"/>
+      <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RZ9zUDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="204,242,166" foregroundColor="204,242,166">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.3/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_PVrAUDeAEemKVZZVXHPrRg" name="UNTAKEN_BONUS">
+        <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition/@hasOperand.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition/@hasOperand.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_PVrnYDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RZhucDeAEemKVZZVXHPrRg" name="0.0">
+        <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition/@hasOperand.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0/@hasCondition/@hasOperand.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_RZiVgDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_NZOhxDeAEemKVZZVXHPrRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.1/@hasTransition.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_X_U9wDeAEemKVZZVXHPrRg" name="back" uid="_X_R6cDeAEemKVZZVXHPrRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_X_U9wTeAEemKVZZVXHPrRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_X_Vk0DeAEemKVZZVXHPrRg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_X_ZPMDeAEemKVZZVXHPrRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_X_ZPMTeAEemKVZZVXHPrRg" type="Sirius" element="_X_U9wDeAEemKVZZVXHPrRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ZckX0DeAEemKVZZVXHPrRg" type="2003" element="_ZcQOwDeAEemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_ZckX0zeAEemKVZZVXHPrRg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ZckX1DeAEemKVZZVXHPrRg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Z5Hw8DeAEemKVZZVXHPrRg" type="3010" element="_Z4llcDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Z5Hw8TeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z5Hw8jeAEemKVZZVXHPrRg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bBNaYDeAEemKVZZVXHPrRg" type="3010" element="_bAqAwDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_bBNaYTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bBNaYjeAEemKVZZVXHPrRg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ZckX1TeAEemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ZckX1jeAEemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZckX0TeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZckX0jeAEemKVZZVXHPrRg" x="312" y="144"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_X_ZPMjeAEemKVZZVXHPrRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_ZcQOwDeAEemKVZZVXHPrRg" name="DIST_TO_OPP   >  4.0">
+      <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition"/>
+      <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_bAuSMDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.12/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Z4llcDeAEemKVZZVXHPrRg" name="DIST_TO_OPP">
+        <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition/@hasOperand.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition/@hasOperand.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Z4llcTeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_bAqAwDeAEemKVZZVXHPrRg" name="4.0">
+        <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition/@hasOperand.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0/@hasCondition/@hasOperand.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_bAqn0DeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_X_Vk0jeAEemKVZZVXHPrRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_gyOWwDeAEemKVZZVXHPrRg" name="wander" uid="_gyI3MDeAEemKVZZVXHPrRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_gyOWwTeAEemKVZZVXHPrRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_gyOWwjeAEemKVZZVXHPrRg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_gyOWxjeAEemKVZZVXHPrRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_gyOWxzeAEemKVZZVXHPrRg" type="Sirius" element="_gyOWwDeAEemKVZZVXHPrRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_jK_k8DeAEemKVZZVXHPrRg" type="2003" element="_jKf1sDeAEemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_jK_k8zeAEemKVZZVXHPrRg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_jLAMADeAEemKVZZVXHPrRg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_j5seADeAEemKVZZVXHPrRg" type="3010" element="_j5K5kDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_j5seATeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_j5seAjeAEemKVZZVXHPrRg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lJ_BMDeAEemKVZZVXHPrRg" type="3010" element="_lJlYkDeAEemKVZZVXHPrRg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_lJ_BMTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lJ_BMjeAEemKVZZVXHPrRg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jLAMATeAEemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jLAMAjeAEemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jK_k8TeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jK_k8jeAEemKVZZVXHPrRg" x="420" y="180"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_gyOWyDeAEemKVZZVXHPrRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_jKf1sDeAEemKVZZVXHPrRg" name="DIST_TO_OPP   &lt;=  4.0">
+      <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition"/>
+      <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_lJstUDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="217,196,215" foregroundColor="217,196,215">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.6/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_j5K5kDeAEemKVZZVXHPrRg" name="DIST_TO_OPP">
+        <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition/@hasOperand.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition/@hasOperand.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_j5K5kTeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_lJlYkDeAEemKVZZVXHPrRg" name="4.0">
+        <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition/@hasOperand.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1/@hasCondition/@hasOperand.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_lJlYkTeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_gyOWxDeAEemKVZZVXHPrRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.3/@hasTransition.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_pIWUMDeAEemKVZZVXHPrRg" name="backback" uid="_pIFOcDeAEemKVZZVXHPrRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pIWUMTeAEemKVZZVXHPrRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_pIWUMjeAEemKVZZVXHPrRg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pIYwcDeAEemKVZZVXHPrRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_pIYwcTeAEemKVZZVXHPrRg" type="Sirius" element="_pIWUMDeAEemKVZZVXHPrRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_qW4j4DeAEemKVZZVXHPrRg" type="2002" element="_qWPDoDeAEemKVZZVXHPrRg">
+          <children xmi:type="notation:Node" xmi:id="_qW5K8DeAEemKVZZVXHPrRg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_qW8OQDeAEemKVZZVXHPrRg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_rYJzoDeAEemKVZZVXHPrRg" type="3009" element="_rXwyEDeAEemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_rYKasDeAEemKVZZVXHPrRg" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_rYKasTeAEemKVZZVXHPrRg" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_sE16gDeAEemKVZZVXHPrRg" type="3010" element="_sEdgADeAEemKVZZVXHPrRg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_sE16gTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_sE16gjeAEemKVZZVXHPrRg"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_uE5twDeAEemKVZZVXHPrRg" type="3010" element="_uEeP8DeAEemKVZZVXHPrRg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_uE5twTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_uE5twjeAEemKVZZVXHPrRg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_rYKasjeAEemKVZZVXHPrRg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_rYKaszeAEemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rYJzoTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rYJzojeAEemKVZZVXHPrRg" x="51" y="85"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vub3YDeAEemKVZZVXHPrRg" type="3009" element="_vt_ygDeAEemKVZZVXHPrRg">
+              <children xmi:type="notation:Node" xmi:id="_vub3YzeAEemKVZZVXHPrRg" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vub3ZDeAEemKVZZVXHPrRg" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_wMqEcDeAEemKVZZVXHPrRg" type="3010" element="_wLSygDeAEemKVZZVXHPrRg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_wMqEcTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wMqEcjeAEemKVZZVXHPrRg"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_xRlFIDeAEemKVZZVXHPrRg" type="3010" element="_xRC5oDeAEemKVZZVXHPrRg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_xRlFITeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_xRlFIjeAEemKVZZVXHPrRg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vub3ZTeAEemKVZZVXHPrRg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vub3ZjeAEemKVZZVXHPrRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vub3YTeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vub3YjeAEemKVZZVXHPrRg" x="459" y="109"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_qW8OQTeAEemKVZZVXHPrRg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_qW8OQjeAEemKVZZVXHPrRg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qW4j4TeAEemKVZZVXHPrRg" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qW4j4jeAEemKVZZVXHPrRg" x="300" y="156" width="700" height="450"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_pIYwcjeAEemKVZZVXHPrRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_qWPDoDeAEemKVZZVXHPrRg" name="AND Condition Group" width="70" height="45">
+      <target xmi:type="pacmanMetamodel:ConditionGroup" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup"/>
+      <semanticElements xmi:type="pacmanMetamodel:ConditionGroup" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qWPqsDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/ConditionGroups/digital-icon-25_2.png" borderSize="5" borderSizeComputationExpression="5" backgroundStyle="GradientTopToBottom" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='ConditionGroup%20Container']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='ConditionGroup%20Container']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_rXwyEDeAEemKVZZVXHPrRg" name="DIST_TO_CLOSEST_BONUS   &lt;  3.0">
+        <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0"/>
+        <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_uEnZ4DeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="217,196,215" foregroundColor="217,196,215">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.15/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sEdgADeAEemKVZZVXHPrRg" name="DIST_TO_CLOSEST_BONUS">
+          <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0/@hasOperand.0"/>
+          <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0/@hasOperand.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_sEeHEDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_uEeP8DeAEemKVZZVXHPrRg" name="3.0">
+          <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0/@hasOperand.1"/>
+          <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.0/@hasOperand.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_uEeP8TeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_vt_ygDeAEemKVZZVXHPrRg" name="DIST_TO_OPP   &lt;=  4.0">
+        <target xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1"/>
+        <semanticElements xmi:type="pacmanMetamodel:Condition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_xRK1cDeAEemKVZZVXHPrRg" showIcon="false" iconPath="/PacmanMetamodel.design/icons/Condition/condition.png" borderSize="1" borderSizeComputationExpression="1" backgroundColor="217,196,215" foregroundColor="217,196,215">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']/@conditionnalStyles.6/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@containerMappings[name='Condition']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_wLSygDeAEemKVZZVXHPrRg" name="DIST_TO_OPP">
+          <target xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1/@hasOperand.0"/>
+          <semanticElements xmi:type="pacmanMetamodel:GameVariable" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1/@hasOperand.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_wLTZkDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="173,127,168">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='GameVariable']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_xRC5oDeAEemKVZZVXHPrRg" name="4.0">
+          <target xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1/@hasOperand.1"/>
+          <semanticElements xmi:type="pacmanMetamodel:Value" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0/@hasConditionGroup/@hasCondition.1/@hasOperand.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_xRDgsDeAEemKVZZVXHPrRg" showIcon="false" labelPosition="node" color="239,41,41">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer/@nodeMappings[name='Value']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_pIWUNDeAEemKVZZVXHPrRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/PacmanMetamodel.design/description/PacmanMetamodel.odesign#//@ownedViewpoints[name='pacmanApp']/@ownedRepresentations[name='ManageTransition']/@defaultLayer"/>
+    <target xmi:type="pacmanMetamodel:Transition" href="pacmanApp.pacmanmetamodel#//@hasState.2/@hasTransition.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
